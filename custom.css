@@ -1,0 +1,97 @@
+.lnr {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+}
+.btn-light{
+    margin-right: 15px;
+}
+
+.lnr-cart {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-user {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.lnr-magnifier {
+    color: #000000;   
+}
+
+.navbar-nav li {
+    margin-right: 3em;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.h {
+    text-align: center;
+}
+
+#main-layout {
+    justify-content: center;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    background-color: #000000;
+}
+
+.card-body {
+    align-content: center;
+}
+
+.card-body #main-laptops {
+    display: inline-block;
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.05em;
+    stroke-width: 2;
+    color: #000000;
+}
+
+#main-laptops .card {
+    display: table-cell;
+}
+
+/* .carousel-inner {
+    height: 0;
+    padding-bottom: 25%;
+} */
+.carousel-item {
+    height: 500px; 
+  }
+  
+  .carousel-item img {
+    height: 100%; 
+  }
+footer {
+    margin-top: 60px;
+    padding: 5em;
+}
+footer div div {
+    justify-content: space-between;
+}
+.footer-links {
+    width: fit-content;
+  }
+.footer-sm {
+    width: 64px;
+  }
+.footer-sm img {
+
+    width: 100%;
+    margin-bottom: 10px;
+  
+  }
