@@ -95,3 +95,18 @@ footer div div {
     margin-bottom: 10px;
   
   }
+
+#laptops {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+#title {
+    margin-left: 20px;
+    margin-top: 15px;
+}
