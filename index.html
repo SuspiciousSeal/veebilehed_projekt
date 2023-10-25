@@ -8,71 +8,79 @@
         <link rel="stylesheet" href="custom.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
     </head>
+    <style>
+      body {
+        background-image: url('img/rm380-11.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+    </style>
     <body>
         <script src="nav.js"></script>
 
-        
-
         <main>
-            <div class="card">
-                <div class="card-body">
-                    Tere tulemast "Online store" veebipoodi!<br>
-                    Meil on suur valik arutitehnikat.
+            <div class="main-content">
+                <div class="main-body">
+                    <div class="main-head">
+                        Tere tulemast "Online store" veebipoodi!<br>
+                        Meil on suur valik arutitehnikat.
+                    </div>
                     <div class="container-fluid">
-                          <div class="col-md-8 mb-4"> 
+                        <div class="col-md-8 mb-4"> 
                             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                              <div class="carousel-inner">
+                                <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                  <img class="d-block w-100 h-80" src="img/factory1.jpg" alt="First slide">
+                                    <img class="d-block w-100" src="img/banner1.jpg" alt="First slide">
                                 </div>
                                 <div class="carousel-item">
-                                  <img class="d-block w-100 h-80" src="img/factory2.jpg" alt="Second slide">
+                                    <img class="d-block w-100" src="img/banner2.jpg" alt="Second slide">
                                 </div>
                                 <div class="carousel-item">
-                                  <img class="d-block w-100 h-80" src="img/factory3.jpg" alt="Third slide">
+                                    <img class="d-block w-100" src="img/banner3.jpg" alt="Third slide">
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Previous</span>
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
                                 </a>
                                 <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="sr-only">Next</span>
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
                                 </a>
-                              </div>
-                            </div>
-                          </div>
-                      </div>
-                    <div class="main_sales_links">
-                        <p>Soodustused</p>
-                        <p>Kõik soodustused</p>
-                    </div>
-                    <div class="main_laptops">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="img/laptop.png" alt="Card image cap">
-                            <div class="card-body">
-                              <h5 class="card-title">Laptop</h5>
-                              <p class="card-text">999.99£</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
+                    </div>
+                    <div class="main_sales_links">
+                        <h4>Soodustused</h4>
+                        <button type="button" class="btn btn-outline-dark">Kõik soodustused</button>
+                    </div>
+                    <div class="main_laptops">
+                        <div class="card_small" style="width: 18rem;">
                             <img class="card-img-top" src="img/laptop.png" alt="Card image cap">
                             <div class="card-body">
                               <h5 class="card-title">Laptop</h5>
-                              <p class="card-text">999.99£</p>
+                              <p class="card-text">999.99€</p>
+                            </div>
+                        </div>
+                        <div class="card_small" style="width: 18rem;">
+                            <img class="card-img-top" src="img/laptop.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Laptop</h5>
+                              <p class="card-text">999.99€</p>
+                            </div>
+                        </div>
+                        <div class="card_small" style="width: 18rem;">
+                            <img class="card-img-top" src="img/laptop.png" alt="Card image cap">
+                            <div class="card-body">
+                              <h5 class="card-title">Laptop</h5>
+                              <p class="card-text">999.99€</p>
                             </div>
                         </div>
                     </div id="main_laptops">
+                    </div>
                 </div>
-            </div>
-            <!-- <div class="card" style="width: 18rem;">
-                <img class="card-img-top" src="img/laptop.png" alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div> -->
+            </div> 
         </main>
         <script src="footer.js"></script>       
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
