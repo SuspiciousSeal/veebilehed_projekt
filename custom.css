@@ -51,19 +51,18 @@ section {
     align-content: center;
 }
 
-.card-body #main-laptops {
-    display: inline-block;
-    fill: currentColor;
-    width: 1em;
-    height: 1em;
-    vertical-align: -0.05em;
-    stroke-width: 2;
-    color: #000000;
+.main_sales_links {
+    display: flex;
+    justify-content: space-between;
 }
 
-#main-laptops .card {
-    display: table-cell;
+.main_laptops {
+    display: flex;
+    justify-content: space-around;
 }
+
+/* #main-laptops .card {
+} */
 
 /* .carousel-inner {
     height: 0;
