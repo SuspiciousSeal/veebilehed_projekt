@@ -3,9 +3,9 @@ document.write(`
             <div class="container-fluid">
                 <div class="row">
                     <ul class="footer-links">
-                        <li><p>©: 23.10.2023</p></li>
-                        <li><p>tel: 55555555</p></li>
-                        <li><a href="mailto:email@email.com">@: email@email.com</p></li>
+                        <li>©: 23.10.2023</li>
+                        <li>tel: 55555555</li>
+                        <li><a href="mailto:email@email.com">@: email@email.com</a></li>
                     </ul>
                     
                     <div class="footer-sm">
