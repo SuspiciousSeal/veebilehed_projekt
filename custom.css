@@ -78,6 +78,7 @@ section {
 footer {
     margin-top: 60px;
     padding: 5em;
+	background-color: black;
 }
 footer div div {
     justify-content: space-between;
@@ -108,4 +109,88 @@ footer div div {
 #title {
     margin-left: 20px;
     margin-top: 15px;
+}
+
+label {
+        display: inline-block;
+        width: 200px;
+      }
+
+#shopping-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#customer-details {
+    width: 50%;
+    padding: 20px;
+}
+
+#customer-details form {
+    margin-top: 20px;
+}
+
+#order-summary {
+    width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+
+.product-image {
+    max-width: 150px;
+    float: left;
+    margin-right: 10px;
+}
+
+.product-details {
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+	max-height: 100vh;
+    margin: 0;
+}
+
+#container {
+padding: 90px;
+}
+
+.h {
+    text-align: left;
+}
+
+.fulltotal-price {
+    font-weight: bold;
+}
+
+.page-heading {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.radio-column {
+    column-count: 2;
+    column-gap: 100px;
+    display: inline-block;
+}
+
+#confirm-order {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+	border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#confirm-order:hover {
+    background-color: #333;
 }
