@@ -6,7 +6,7 @@ document.write(`
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a class="nav-link" href="#/">Kodu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./">Kodu</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Telefonid</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Arvutid</a> 
