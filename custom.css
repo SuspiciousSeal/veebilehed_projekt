@@ -50,13 +50,12 @@ section {
 .main-content {
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 10px;
 }
 .main-body {
-    /* align-content: center; */
     padding-left: 100px;
     padding-right: 100px;
     background-color: rgb(255, 255, 255);
-    /* background-color: rgb(114, 47, 47); */
     border-radius: 50px;
 }
 .main-head{
@@ -76,26 +75,18 @@ section {
 .main_laptops {
     display: flex;
     justify-content: space-around;
-}
+} 
 
-/* #main-laptops .card {
-} */
-.container-fluid {
+#carousel {
     display: flex;
     justify-content: center;
 }
-/* .carousel-inner img {
-} */
-/*
-.carousel-item {
-    height: 300px; 
-}
-  */
+
 .carousel-item img {
     height: 220px;
     width: 100%;
     object-position: center;
-} 
+}
 
 footer {
     margin-top: 60px;
@@ -137,7 +128,7 @@ footer div div {
     width: 100%;
     height: 100%;
 }
-.card-body h5, p {
+.card-body {
     text-align: center;
 }
 
@@ -183,16 +174,13 @@ label {
     overflow: hidden;
 }
 
-body {
+#container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 	max-height: 100vh;
     margin: 0;
-}
-
-#container {
-padding: 90px;
+    padding: 90px;
 }
 
 .h {
